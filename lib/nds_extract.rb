@@ -24,17 +24,9 @@ end
 
 def directors_totals(nds)
   result = {}
-i = 0
-while i < nds.length do
-  name = nds[i][:name] #iterates over the names in directors_database
-  j = 0 #counter for next while loop
-movies = nds[i][:movies]
-    gross = 0
-    while j < movies.length do
-      gross += movies[j][:worldwide_gross]
-      j += 1
-    end
-    result[name] = gross
+  i = 0
+  while i < nds.length do
+  
     i += 1
   end
   result = {}
