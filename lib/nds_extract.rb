@@ -4,10 +4,9 @@ require 'pp'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-def gross_for_director(director_data, row_index, column_index)
-  coordinate_total = 0
-  inner_len = directors_database[row_index][column_index].length
-  inner_index = 0
+def gross_for_director(director_data)
+  movies = 0
+  i = 0
   while inner_index < inner_len do
     coordinate_total += directors_database[row_index][column_index][inner_index][:worldwide_gross]
     inner_index += 1
