@@ -12,7 +12,7 @@ def gross_for_director(director_data)
     coordinate_total += directors_database[row_index][column_index][inner_index][:worldwide_gross]
     inner_index += 1
   end
-  coordinate_total
+  total
 end
 
 
