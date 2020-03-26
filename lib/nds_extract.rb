@@ -8,7 +8,7 @@ def gross_for_director(director_data)
 
 #def total_value_of_spinner(nds, row_index, column_index)
   coordinate_total = 0
-  inner_len = nds[row_index][column_index].length
+  inner_len = director_data[row_index][column_index].length
   inner_index = 0
   while inner_index < inner_len do
     coordinate_total += nds[row_index][column_index][inner_index][:price]
