@@ -9,7 +9,7 @@ def gross_for_director(director_data, row_index, column_index)
   inner_len = directors_database[row_index][column_index].length
   inner_index = 0
   while inner_index < inner_len do
-    coordinate_total += directors_database[row_index][column_index][inner_index][:price]
+    coordinate_total += directors_database[row_index][column_index][inner_index][:worldwide_grosses]
     inner_index += 1
   end
   coordinate_total
