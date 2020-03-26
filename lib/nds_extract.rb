@@ -9,8 +9,7 @@ def gross_for_director(director_data)
   i = 0
   total = 0 
   while i < movies.length do
-    coordinate_total += directors_database[row_index][column_index][inner_index][:worldwide_gross]
-    inner_index += 1
+    total += 
   end
   total
 end
