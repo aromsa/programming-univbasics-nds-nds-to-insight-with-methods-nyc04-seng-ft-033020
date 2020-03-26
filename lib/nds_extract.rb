@@ -31,6 +31,6 @@ def directors_totals(nds)
     result[name] = gross
     i += 1
   end
-  result = {}
+  result
 end
 
