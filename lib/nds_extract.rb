@@ -5,7 +5,7 @@ require 'pp'
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  movies = 0
+  movies = director_data [:movies]
   i = 0
   coord_total = 0 
   while i < movies.length do
