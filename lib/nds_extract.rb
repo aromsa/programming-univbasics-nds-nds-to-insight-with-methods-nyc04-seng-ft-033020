@@ -22,7 +22,9 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 
 
-# def directors_totals(nds)
-#   result = {}
-#   nil
-# end
+def directors_totals(nds)
+  
+  
+  result = {}
+  nil
+end
