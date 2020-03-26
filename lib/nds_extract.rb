@@ -4,7 +4,7 @@ require 'pp'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
-def gross_for_director(director_data)
+def gross_for_director(director_data, row_index, column_index)
 
 #def total_value_of_spinner(nds, row_index, column_index)
   coordinate_total = 0
