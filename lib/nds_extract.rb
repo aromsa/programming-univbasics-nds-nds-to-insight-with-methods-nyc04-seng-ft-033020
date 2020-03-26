@@ -7,7 +7,8 @@ require 'pp'
 def gross_for_director(director_data)
   movies = 0
   i = 0
-  while inner_index < inner_len do
+  coord_total = 0 
+  while i < movies.length do
     coordinate_total += directors_database[row_index][column_index][inner_index][:worldwide_gross]
     inner_index += 1
   end
